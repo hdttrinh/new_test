@@ -1,0 +1,11 @@
+.update-nag { display: none; }
+@media screen and (min-width: 580px) {
+	#wp-admin-bar-my-sites .ab-sub-wrapper { width: 500px; max-height: 400px; overflow-x: hidden; overflow-y: auto; }
+	#wp-admin-bar-my-sites #wp-admin-bar-my-sites-super-admin,  #wp-admin-bar-my-sites #wp-admin-bar-my-sites-list,  #wp-admin-bar-my-sites #wp-admin-bar-my-sites-list .ab-sub-wrapper { width: 250px; height: auto; }
+	#wp-admin-bar-my-sites #wp-admin-bar-my-sites-list { padding-bottom: 150px; }
+}
+@media screen and (min-width: 769px) {
+	#wp-admin-bar-my-sites .ab-sub-wrapper { width: 352px; max-height: 400px; overflow-x: hidden; overflow-y: auto; }
+	#wp-admin-bar-my-sites #wp-admin-bar-my-sites-super-admin,  #wp-admin-bar-my-sites #wp-admin-bar-my-sites-list,  #wp-admin-bar-my-sites #wp-admin-bar-my-sites-list .ab-sub-wrapper { width: 176px; height: auto; }
+	#wp-admin-bar-my-sites #wp-admin-bar-my-sites-list { padding-bottom: 100px; }
+}

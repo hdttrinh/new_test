@@ -1,0 +1,1 @@
+<!--This is the content of common part. There are somewhere you want to show it?-->

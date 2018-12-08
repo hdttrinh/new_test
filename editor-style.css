@@ -1,0 +1,10 @@
+/*
+Theme Name: theme
+Description: Used to style the TinyMCE editor.
+*/
+/*import all css*/
+@import url('style.css');
+@import url('css/common.css');
+
+
+html .mceContentBody{background:none; width:960px; min-width:960px; max-width:960px; padding:15px 10px;}/*横幅合わせて変更する*/

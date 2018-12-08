@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*===Setup default===*/
+* { margin: 0; padding: 0; }
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html { height: 100%; font-size: 62.5%; }
+body { position: relative; min-width: 320px; height: 100%; line-height: 1.6; }
+body, td, th { line-height: 1.6; color: #333; font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "MS Ｐゴシック", "MS PGothic", "メイリオ", Meiryo, sans-serif; font-size: 1.4rem; }
+td, th { vertical-align: baseline; }
+img { vertical-align: top; max-width: 100%; height: auto; }
+li { list-style: none; }
+a { cursor: pointer; color: #999; text-decoration: underline; }
+a:hover { color: #333; text-decoration: none; }
+/*===clearfix===*/
+.clearfix:before, .clearfix:after { display: table; content: " "; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1;
+}
+::selection { background: #a8d1ff; text-shadow: none; }
+::-moz-selection {
+ background: #a8d1ff;
+text-shadow: none;
+}
+/*===共通項目===*/
+#wpadminbar { position: fixed !important; }
+#wrap_all { position: relative; overflow: hidden; min-height: 100%; }
+.wrap {width:100%; max-width: 1030px; margin: 0 auto; padding: 0 15px; }
+.container{ width:100%;overflow:hidden;}
+.boxlink{ cursor: pointer; }
+.f-left { float: left; }
+.f-right { float: right; }
+.clear { clear: both; }
+.no-pd-bottom { padding-bottom: 0 !important; }
+.no-pd-top { padding-top: 0 !important; }
+.no-pd-left { padding-left: 0 !important; }
+.no-pd-right { padding-right: 0 !important; }
+.no-mg-bottom { margin-bottom: 0 !important; }
+.no-mg-top { margin-top: 0 !important; }
+.no-mg-left { margin-left: 0 !important; }
+.no-mg-right { margin-right: 0 !important; }
+.no-border { border: none !important; }
+.no-border-left { border-left: none !important; }
+.no-bg { background: none !important; }
+.mg-bt5 { margin-bottom: 5px !important }
+.mg-bt10 { margin-bottom: 10px !important }
+.mg-bt15 { margin-bottom: 15px !important }
+.mg-bt20 { margin-bottom: 20px !important }
+.mg-bt25 { margin-bottom: 25px !important }
+.mg-bt30 { margin-bottom: 30px !important }
+.mg-bt35 { margin-bottom: 35px !important }
+.mg-bt40 { margin-bottom: 40px !important }
+.mg-bt50 { margin-bottom: 50px !important }
+.mg-bt55 { margin-bottom: 55px !important }
+.mg-bt60 { margin-bottom: 60px !important }
+.mg-bt65 { margin-bottom: 65px !important }
+.mg-bt70 { margin-bottom: 70px !important }
+.mg-center { margin: 0 auto; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+.img-circle img { border-radius: 100%; }
+/*image*/
+.alignleft { display: inline; float: left; margin-right: 1.62em; }
+.alignright { display: inline; float: right; margin-left: 1.62em; }
+.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; }
+img.alignleft, img.alignright, img.aligncenter { margin-bottom: 1.62em; background: #fff; }
+/*===footer===*/
+footer { position: absolute; bottom: 0px; left: 0px; width: 100%; background: #000; z-index: 999; color: #fff; }
+
+/* Mobile screens start*/
+@media only screen and (max-width: 767px) {
+}
+/* Mobile screens end*/
+/* Tablet and PC screens start*/
+@media only screen and (min-width: 768px) {
+}
+/* Tablet and PC screens end*/
